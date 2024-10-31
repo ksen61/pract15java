@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_user"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item1"
+            android:title="Пользователь"
+            android:icon="@drawable/icons8"
+            android:checked="false"
+            />
+    </group>
+
+    <item
+        android:id="@+id/nav_item2"
+        android:title="Почта"
+        android:icon="@drawable/icon24"
+        android:checkable="true" />
+
+    <group
+        android:id="@+id/group_media"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item3"
+            android:title="Музыка"
+            android:icon="@drawable/music"
+            />
+
+        <item
+            android:id="@+id/nav_item4"
+            android:title="Новости"
+            android:icon="@drawable/news"
+            android:checkable="true" />
+    </group>
+
+    <group
+        android:id="@+id/group_frag"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item6"
+            android:title="Первый фрагмент"
+            android:icon="@drawable/heart"
+            />
+
+        <item
+            android:id="@+id/nav_item7"
+            android:title="Второй фрагмент"
+            android:icon="@drawable/star"
+            android:checkable="true" />
+    </group>
+
+    <item
+        android:id="@+id/nav_item5"
+        android:title="Настройки"
+        android:icon="@drawable/settings"
+        />
+</menu>

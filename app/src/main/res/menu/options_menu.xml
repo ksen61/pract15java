@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_first"
+        android:title="Первый фрагмент" />
+    <item
+        android:id="@+id/action_second"
+        android:title="Второй фрагмент" />
+</menu>
